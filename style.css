@@ -39,3 +39,40 @@ nav ul{
 nav ul li{
     padding: 0 12px;
 }
+
+.container{
+    min-height: 70vh ;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius:  12px;
+    background-image: url('background.jpg');
+}
+
+    .bottom{
+        position: sticky;
+        height: 130px;
+        background-color: black;   
+        color: white; 
+        bottom: 0;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 12px 0;
+        }
+    
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+}
